@@ -14,7 +14,7 @@ server.app.use(bodyParser.json());
 //Rutas de Servicio
 server.app.use('/',router);
 
-//Configuración de los cors
+//Configuración de los cors mario-develop
 server.app.use(cors({origin: true, credentials:true}));
 
 server.start(()=>{
